@@ -16,14 +16,14 @@ version="${file.jarVersion}" #mandatory
  # A display name for the mod
 displayName="Iron Crushers" #mandatory
 # A URL for the "homepage" for this mod, displayed in the mod UI
-displayURL="https://github.com/Qelifern/IronFurnaces/" #optional
+displayURL="https://github.com/Qelifern/IronCrushers/" #optional
 # A text field displayed in the mod UI
 credits="Java, JetBrains, Minecraft, MinecraftForge, LexManos, mezz, Ellpeck, KingLemming" #optional
 # A text field displayed in the mod UI
 authors="Qelifern (pizzaatime)" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-Adds craftable Iron Crushers to smash and crush ores and items alike to better extract the materials, ingenius design featuring an internal combustion engine to generate electrical energy to then be converted to mechanical energy once again for the moving of the smashing piston.
+Adds craftable Iron Crushers to smash and crush ores and items alike to better extract the materials, ingenious design featuring an internal combustion engine to generate electrical energy to then be converted to mechanical energy once again for the moving of the smashing piston.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.ironcrushers]] #optional

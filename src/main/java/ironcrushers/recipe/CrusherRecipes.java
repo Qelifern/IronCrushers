@@ -1,6 +1,7 @@
 package ironcrushers.recipe;
 
 import com.google.common.collect.Maps;
+import ironcrushers.init.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
 import net.minecraft.item.Item;
@@ -159,31 +160,31 @@ public class CrusherRecipes {
 
         this.addRecipe(new ItemStack(Items.DIAMOND_HORSE_ARMOR), new ItemStack(Items.DIAMOND, 4));
 
-        this.addRecipe(new ItemStack(Items.GOLDEN_SWORD), new ItemStack(Items.GOLD_INGOT, 2));
-        this.addRecipe(new ItemStack(Items.GOLDEN_PICKAXE), new ItemStack(Items.GOLD_INGOT, 3));
-        this.addRecipe(new ItemStack(Items.GOLDEN_AXE), new ItemStack(Items.GOLD_INGOT, 3));
-        this.addRecipe(new ItemStack(Items.GOLDEN_SHOVEL), new ItemStack(Items.GOLD_INGOT));
-        this.addRecipe(new ItemStack(Items.GOLDEN_HOE), new ItemStack(Items.GOLD_INGOT, 2));
+        this.addRecipe(new ItemStack(Items.GOLDEN_SWORD), new ItemStack(ModItems.gold_dust, 2));
+        this.addRecipe(new ItemStack(Items.GOLDEN_PICKAXE), new ItemStack(ModItems.gold_dust, 3));
+        this.addRecipe(new ItemStack(Items.GOLDEN_AXE), new ItemStack(ModItems.gold_dust, 3));
+        this.addRecipe(new ItemStack(Items.GOLDEN_SHOVEL), new ItemStack(ModItems.gold_dust));
+        this.addRecipe(new ItemStack(Items.GOLDEN_HOE), new ItemStack(ModItems.gold_dust, 2));
 
-        this.addRecipe(new ItemStack(Items.GOLDEN_HELMET), new ItemStack(Items.GOLD_INGOT, 5));
-        this.addRecipe(new ItemStack(Items.GOLDEN_CHESTPLATE), new ItemStack(Items.GOLD_INGOT, 8));
-        this.addRecipe(new ItemStack(Items.GOLDEN_LEGGINGS), new ItemStack(Items.GOLD_INGOT, 7));
-        this.addRecipe(new ItemStack(Items.GOLDEN_BOOTS), new ItemStack(Items.GOLD_INGOT, 4));
+        this.addRecipe(new ItemStack(Items.GOLDEN_HELMET), new ItemStack(ModItems.gold_dust, 5));
+        this.addRecipe(new ItemStack(Items.GOLDEN_CHESTPLATE), new ItemStack(ModItems.gold_dust, 8));
+        this.addRecipe(new ItemStack(Items.GOLDEN_LEGGINGS), new ItemStack(ModItems.gold_dust, 7));
+        this.addRecipe(new ItemStack(Items.GOLDEN_BOOTS), new ItemStack(ModItems.gold_dust, 4));
 
-        this.addRecipe(new ItemStack(Items.GOLDEN_HORSE_ARMOR), new ItemStack(Items.GOLD_INGOT, 4));
+        this.addRecipe(new ItemStack(Items.GOLDEN_HORSE_ARMOR), new ItemStack(ModItems.gold_dust, 4));
 
-        this.addRecipe(new ItemStack(Items.IRON_SWORD), new ItemStack(Items.IRON_INGOT, 2));
-        this.addRecipe(new ItemStack(Items.IRON_PICKAXE), new ItemStack(Items.IRON_INGOT, 3));
-        this.addRecipe(new ItemStack(Items.IRON_AXE), new ItemStack(Items.IRON_INGOT, 3));
-        this.addRecipe(new ItemStack(Items.IRON_SHOVEL), new ItemStack(Items.IRON_INGOT));
-        this.addRecipe(new ItemStack(Items.IRON_HOE), new ItemStack(Items.IRON_INGOT, 2));
+        this.addRecipe(new ItemStack(Items.IRON_SWORD), new ItemStack(ModItems.iron_dust, 2));
+        this.addRecipe(new ItemStack(Items.IRON_PICKAXE), new ItemStack(ModItems.iron_dust, 3));
+        this.addRecipe(new ItemStack(Items.IRON_AXE), new ItemStack(ModItems.iron_dust, 3));
+        this.addRecipe(new ItemStack(Items.IRON_SHOVEL), new ItemStack(ModItems.iron_dust));
+        this.addRecipe(new ItemStack(Items.IRON_HOE), new ItemStack(ModItems.iron_dust, 2));
 
-        this.addRecipe(new ItemStack(Items.IRON_HELMET), new ItemStack(Items.IRON_INGOT, 5));
-        this.addRecipe(new ItemStack(Items.IRON_CHESTPLATE), new ItemStack(Items.IRON_INGOT, 8));
-        this.addRecipe(new ItemStack(Items.IRON_LEGGINGS), new ItemStack(Items.IRON_INGOT, 7));
-        this.addRecipe(new ItemStack(Items.IRON_BOOTS), new ItemStack(Items.IRON_INGOT, 4));
+        this.addRecipe(new ItemStack(Items.IRON_HELMET), new ItemStack(ModItems.iron_dust, 5));
+        this.addRecipe(new ItemStack(Items.IRON_CHESTPLATE), new ItemStack(ModItems.iron_dust, 8));
+        this.addRecipe(new ItemStack(Items.IRON_LEGGINGS), new ItemStack(ModItems.iron_dust, 7));
+        this.addRecipe(new ItemStack(Items.IRON_BOOTS), new ItemStack(ModItems.iron_dust, 4));
 
-        this.addRecipe(new ItemStack(Items.IRON_HORSE_ARMOR), new ItemStack(Items.IRON_INGOT, 4));
+        this.addRecipe(new ItemStack(Items.IRON_HORSE_ARMOR), new ItemStack(ModItems.iron_dust, 4));
 
         // Draconic Evolution
         //this.addRecipe("oreDraconium", "dustDraconium", 6);
@@ -216,8 +217,8 @@ public class CrusherRecipes {
         // Ores, Ingots, Dusts
         // ORES
 
-        this.addRecipe(new ItemStack(Blocks.IRON_ORE), new ItemStack(Items.IRON_INGOT, 2));
-        this.addRecipe(new ItemStack(Blocks.GOLD_ORE), new ItemStack(Items.GOLD_INGOT, 2));
+        this.addRecipe(new ItemStack(Blocks.IRON_ORE), new ItemStack(ModItems.iron_dust, 2));
+        this.addRecipe(new ItemStack(Blocks.GOLD_ORE), new ItemStack(ModItems.gold_dust, 2));
 
         this.addRecipe(new ItemStack(Blocks.COAL_ORE), new ItemStack(Items.COAL, 3) /*, "dustCoal", 25F */);
         this.addRecipe(new ItemStack(Blocks.DIAMOND_ORE), new ItemStack(Items.DIAMOND, 2));
