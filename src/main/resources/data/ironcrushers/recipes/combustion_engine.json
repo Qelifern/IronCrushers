@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "I#I",
+    "#F#",
+    "I#I"
+  ],
+  "key": {
+    "F": {
+       "item": "minecraft:furnace"
+    },
+    "#": {
+      "item": "minecraft:gold_ingot"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "ironcrushers:combustion_engine"
+  }
+}

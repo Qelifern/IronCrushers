@@ -1,0 +1,11 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ironcrushers:emerald_crusher"
+    }
+  ],
+  "result": {
+    "item": "ironcrushers:emerald_crusher"
+  }
+}

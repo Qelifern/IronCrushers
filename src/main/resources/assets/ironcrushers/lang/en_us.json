@@ -1,0 +1,42 @@
+{
+    "_comment": "Items",
+
+    "_comment": "TAB",
+    "itemGroup.ironcrushers": "Iron Crushers",
+
+    "_comment": "Blocks",
+    "block.ironcrushers.iron_crusher": "Iron Crusher",
+    "block.ironcrushers.gold_crusher": "Golden Crusher",
+    "block.ironcrushers.diamond_crusher": "Diamond Crusher",
+    "block.ironcrushers.emerald_crusher": "Emerald Crusher",
+    "block.ironcrushers.obsidian_crusher": "Obsidian Crusher",
+    "block.ironcrushers.copper_crusher": "Copper Crusher",
+    "block.ironcrushers.silver_crusher": "Silver Crusher",
+
+
+    "_comment": "Items",
+    "item.ironcrushers.combustion_engine": "Combustion Engine",
+
+
+    "_comment": "JEI",
+    "crusher_recipes": "Crushing",
+
+
+
+    "_comment": "GUI",
+    "container.iron_crusher": "Iron Crusher",
+    "container.gold_crusher": "Golden Crusher",
+    "container.diamond_crusher": "Diamond Crusher",
+    "container.emerald_crusher": "Emerald Crusher",
+    "container.obsidian_crusher": "Obsidian Crusher",
+    "container.copper_crusher": "Copper Crusher",
+    "container.silver_crusher": "Silver Crusher",
+
+    "_comment": "Updates",
+    "ironcrushers.update.speech": "[{\"text\":\"There is an Update for \"},{\"text\":\"Iron Crushers \",\"color\":\"dark_green\"},{\"text\":\"available!\",\"color\":\"none\"}]",
+    "ironcrushers.update.version": "[{\"text\":\"Current Version: \"},{\"text\":\"%s\",\"color\":\"dark_red\"},{\"text\":\", newest Version: \",\"color\":\"none\"},{\"text\":\"%s\",\"color\":\"dark_green\"}]",
+    "ironcrushers.update.buttons": "[{\"text\":\"[\"},{\"text\":\"Click for Changelog\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"%s\"}},{\"text\":\"] [\",\"color\":\"none\"},{\"text\":\"Click for Download\",\"color\":\"green\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"%s\"}},{\"text\":\"]\",\"color\":\"none\"}]",
+    "ironcrushers.update.buttonOptions": "Click: Changelog, Shift-Click: Download! (In Browser)",
+    "ironcrushers.update.failed": "[{\"text\":\"The Update Check for \"},{\"text\":\"Iron Crushers \",\"color\":\"dark_green\"},{\"text\":\"failed! Check Logs for more Info!\",\"color\":\"none\"}]"
+
+}

@@ -1,0 +1,28 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    " P ",
+    "RFR",
+    "GCG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:iron_block"
+    },
+    "F": {
+       "item": "ironcrushers:combustion_engine"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "P": {
+      "item": "minecraft:piston"
+    },
+    "C": {
+      "item": "minecraft:comparator"
+    }
+  },
+  "result": {
+    "item": "ironcrushers:iron_crusher"
+  }
+}

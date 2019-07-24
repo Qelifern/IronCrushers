@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#R#",
+    "RFR",
+    "#R#"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:blaze_rod"
+    },
+    "F": {
+       "item": "ironcrushers:emerald_crusher"
+    },
+    "#": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "ironcrushers:obsidian_crusher"
+  }
+}

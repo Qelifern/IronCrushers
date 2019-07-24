@@ -1,0 +1,22 @@
+{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#F#",
+    "#B#"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:emerald_block"
+    },
+    "F": {
+       "item": "ironcrushers:diamond_crusher"
+    },
+    "#": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "ironcrushers:emerald_crusher"
+  }
+}

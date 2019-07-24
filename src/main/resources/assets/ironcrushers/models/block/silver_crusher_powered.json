@@ -1,0 +1,8 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "ironcrushers:block/silver_crusher_side",
+        "front": "ironcrushers:block/silver_crusher_front_powered",
+        "side": "ironcrushers:block/silver_crusher_side"
+    }
+}

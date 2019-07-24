@@ -1,0 +1,20 @@
+{
+    "variants": {
+        "facing=north,lit=false,powered=false": { "model": "ironcrushers:block/iron_crusher" },
+        "facing=south,lit=false,powered=false": { "model": "ironcrushers:block/iron_crusher", "y": 180 },
+        "facing=west,lit=false,powered=false":  { "model": "ironcrushers:block/iron_crusher", "y": 270 },
+        "facing=east,lit=false,powered=false":  { "model": "ironcrushers:block/iron_crusher", "y": 90 },
+        "facing=north,lit=true,powered=false": { "model": "ironcrushers:block/iron_crusher_burning" },
+        "facing=south,lit=true,powered=false": { "model": "ironcrushers:block/iron_crusher_burning", "y": 180 },
+        "facing=west,lit=true,powered=false":  { "model": "ironcrushers:block/iron_crusher_burning", "y": 270 },
+        "facing=east,lit=true,powered=false":  { "model": "ironcrushers:block/iron_crusher_burning", "y": 90 },
+        "facing=north,lit=true,powered=true": { "model": "ironcrushers:block/iron_crusher_on" },
+        "facing=south,lit=true,powered=true": { "model": "ironcrushers:block/iron_crusher_on", "y": 180 },
+        "facing=west,lit=true,powered=true":  { "model": "ironcrushers:block/iron_crusher_on", "y": 270 },
+        "facing=east,lit=true,powered=true":  { "model": "ironcrushers:block/iron_crusher_on", "y": 90 },
+        "facing=north,lit=false,powered=true": { "model": "ironcrushers:block/iron_crusher_powered" },
+        "facing=south,lit=false,powered=true": { "model": "ironcrushers:block/iron_crusher_powered", "y": 180 },
+        "facing=west,lit=false,powered=true":  { "model": "ironcrushers:block/iron_crusher_powered", "y": 270 },
+        "facing=east,lit=false,powered=true":  { "model": "ironcrushers:block/iron_crusher_powered", "y": 90 }
+    }
+}

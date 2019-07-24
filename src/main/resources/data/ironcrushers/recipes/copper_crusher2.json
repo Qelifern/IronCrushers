@@ -1,0 +1,11 @@
+{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "ironcrushers:copper_crusher"
+    }
+  ],
+  "result": {
+    "item": "ironcrushers:copper_crusher"
+  }
+}
